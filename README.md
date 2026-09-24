@@ -18,17 +18,4 @@ This project demonstrates an advanced Edge-AI communication device designed for 
 
 ## --> System Architecture & Data Flow
 
-```mermaid
-graph TD
-    A["🎤 INMP441 Mic"] -->|Raw Audio| B("Rockchip RV1106 SoC")
-    B -->|Noisy Data| C{"RNNoise AI Filter"}
-    C -->|Clean Voice| D["DRA818V Module"]
-    D -->|Radio Signal| E(("Antenna"))
 
-    F["Incoming Radio"] -->|Receives| D
-    D -->|Radio Audio| B
-    B -->|Output Voice| G["🔊 2W Speaker"]
-
-    style B fill:#007acc,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#e63946,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#2a9d8f,stroke:#fff,stroke-width:2px,color:#fff
