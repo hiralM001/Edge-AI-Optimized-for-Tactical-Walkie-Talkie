@@ -27,3 +27,7 @@ The core innovation is the integration of **real-time AI-based noise cancellatio
 
 -> Project Code Details
 The main processing logic is contained in `walkie_demo.py`. This script manages microphone capture, C-library AI invocation, buffer management, and simultaneous wireless/wired output.
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-Military_AI-red.svg)
+![Rockchip](https://img.shields.io/badge/Rockchip-RV1106-green.svg)
+![RNNoise](https://img.shields.io/badge/RNNoise-C_Library-orange.svg)
