@@ -10,13 +10,13 @@
 
 ---
 
-## 🚀 Project Overview
+## --> Project Overview
 
 This project demonstrates an advanced Edge-AI communication device designed for extreme tactical environments. By utilizing highly optimized C-libraries (**RNNoise**) and custom **PyTorch-trained models**, the system effectively filters out heavy military background noises—such as helicopters, tanks, bomb blasts, and gunshots—directly on the edge hardware with zero internet dependency.
 
 ---
 
-## 🧠 System Architecture & Data Flow
+## --> System Architecture & Data Flow
 
 ```mermaid
 graph TD
