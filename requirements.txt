@@ -1,2 +1,19 @@
+-> Audio & Data Processing
 pyaudio
 numpy
+librosa
+soundfile
+
+-> Deep Learning (Core AI)
+torch
+torchvision
+torchaudio
+
+-> If you are integrating any CV or NLP (Based on MAITRI AI structure)
+opencv-python
+transformers
+scikit-learn
+
+-> Deployment & Utilities (Optional for PC, but good for Edge testing)
+onnx
+onnxruntime
