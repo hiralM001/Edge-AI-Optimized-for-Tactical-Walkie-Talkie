@@ -18,23 +18,18 @@ The entire pipeline is optimized for real-time processing. Here is the exact dat
 
 [ Environment Noise + Voice ]
             |
-            v
    ( INMP441 I2S Mic )
             |
             |--- Raw Noisy Audio Buffer
-            v
  [ Rockchip RV1106 SoC ]  <====>  [ RNNoise C-Library ]
-            |                     *Filters noise in <150ms*
+            |                     *Filters noise in <0.15s*
             |
             |--- Clean Voice Output
-            v
  [ DRA818 VHF RF Module ]
             |
             |--- Analog Radio Transmission
-            v
      (( VHF Antenna ))
             |
-            v
  [ Receiving Walkie-Talkie ] ---> [ MAX98357A Amp ] ---> ( 2W Speaker )
 
 ## Key Features & Optimizations
